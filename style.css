@@ -17,7 +17,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
-  min-height: 95vh;
+  min-height: 85vh;
   align-items: center;
   justify-content: center;
   place-content: center;
@@ -38,7 +38,7 @@ main {
 }
 p {
   color: hsl(291, 22%, 75%);
-  font-size: clamp(0.2rem, 2.5vh, 1rem);
+  font-size: clamp(0.2rem, 3vh, 1rem);
   display: none;
   margin-bottom: 10px;
   font-weight: bold;
@@ -48,7 +48,7 @@ h3{
   margin-top: 10px;
   width: 100%;
   color: hsl(292, 32%, 23%);
-  font-size: clamp(0.2rem, 2.5vh, 1rem);
+  font-size: clamp(0.2rem, 3vh, 1rem);
 }
 
 .question {
