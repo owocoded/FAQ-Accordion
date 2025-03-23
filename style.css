@@ -5,13 +5,19 @@
     font-style: normal;
 }
 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: hsl(275, 100%, 97%);
   background-image: url(assets/images/background-pattern-desktop.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
-  min-height: 120vh;
+  min-height: 95vh;
   align-items: center;
   justify-content: center;
   place-content: center;
@@ -19,11 +25,12 @@ body {
 }
 
 main {
-  max-width: 70vh;
+  max-width: 50%;
   padding: 10px 25px;
   border-radius: 5px;
   background-color: white;
   font-family: "Work Sans";
+  margin: 20px;
 }
 .header {
   display: flex;
@@ -33,16 +40,20 @@ p {
   color: hsl(291, 22%, 75%);
   font-size: clamp(0.2rem, 2.5vh, 1rem);
   display: none;
-  margin: 0px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 h3{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
   color: hsl(292, 32%, 23%);
   font-size: clamp(0.2rem, 2.5vh, 1rem);
 }
 
 .question {
   display: flex;
+  justify-content: space-between;
   gap: 10px;
   cursor: pointer;
 }
@@ -55,4 +66,8 @@ h3{
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+
+.faq{
+  border-bottom: 1px solid hsl(292, 48%, 91%);;
 }
